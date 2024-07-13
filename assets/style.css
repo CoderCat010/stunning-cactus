@@ -38,7 +38,7 @@
 ========Navbar Title PART========
 */
    .nev-styles{
-      font-weight: 500;
+      font-weight: 400;
    }
    
    .nev-styles li:hover{
@@ -48,3 +48,6 @@
 /* 
 ========Banner Title PART========
 */
+.banner-span{
+   color: hsl(93, 54%, 54%);
+}

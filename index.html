@@ -3,9 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Coctus</title>
+
+     <!--**!FAVICON**-->
+     <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+     <!--**!REMIX ICON**-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.min.css">
+
+    <!--**!GOOGLE FONT**-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+     <!--**!TAILWIND CSS LINK**-->
+     <script src="https://cdn.tailwindcss.com"></script>
+
+     <!--**!CSS LINKS**-->
+    <link rel="stylesheet" href="./assets/style.css">
+
 </head>
 <body>
+<!--
+======================================
+=           HEADER SECTION           =
+======================================
+-->
+<header class="pt-8 mx-auto max-w-[1200px] lg:px-[30px] md:px-7 px-[30px] mb-[100px]">
+<!--
+    ============NAVIGATION PART=============
+-->
+            <nav class="flex justify-between items-center text-white">
+                <!--
+                LOGO CONTAINER
+                -->
+                <div class="flex items-center gap-1">
+                    <img class="w-9" src="./assets/img/favicon.png" alt="">
+                    <!--Logo Title-->
+                    <h1 class="font-bold tracking-[3px] text-[25px]">Cactus.</h1>
+                </div>
+        
+                <!--
+                NAVIGATION CONTAINER
+                -->
+                <!--Primary Navigation-->
+                    <ul class="flex lg:flex md:flex gap-20 nev-styles lg:block md:block hidden">
+                        <li class="lg:block hidden">Home</li>
+                        <li>Shop</li>
+                        <li>Care</li>
+                        <li>Contact</li>
+                    </ul>
+    
+                <!--Secondery Navigation-->
+                    <ul class="flex gap-5 nev-styles">
+                        <li><i class="ri-user-line text-[20px]"></i></li>
+                        <li><i class="ri-shopping-cart-line text-[20px]"></i></li>
+                    </ul>
+            </nav>
+    
+<!--
+    ============BANNER PART=============
+ -->
+            <div class="lg:flex md:flex flex-row lg:gap-16 mt-[100px] items-center">
+                <!-----
+                Banner Img Container      
+                ----->
+                <div class="lg:mb-0 mb-16">
+                    <img style="filter: drop-shadow(0 0 48px hsla(93, 54%, 54%, .4));" class="lg:w-[500px] lg:h-[550px] w-auto h-full lg:px-0 px-5" src="./assets/img/home-cactus.png">
+                </div>
+    
+                <!-----
+                Banner Title Container      
+                ----->
+                <div class="lg:w-[500px] w-auto">
+                    <h1 class="lg:text-[60px] md:text-[50px] text-[40px] font-extrabold text-white">ORNAMENTAL <span class="banner-span">PLANTS</span> FOR <br>YOUR HOME</h1>
+    
+                    <p class="pt-2 pb-7" style="color: hsl(228, 8%, 70%);">We design ornamental plants for your home in-house for an original style and quality you won't find anywhere else.</p>
+        
+                    <!--Banner Title Button-->
+                    <div class="flex gap-6">
+                        <button style="background-color: hsl(228, 8%, 98%); font-weight: 500;" class="py-2 px-3 text-black rounded-full"><i style="background-color: hsl(93, 54%, 54%); color: black; padding: 5px; border-radius: 50%; position:relative; right: 3%;" class="ri-arrow-right-line"></i> Go To Shop</button>
+
+                        <button style="font-weight: 500;" class="underline text-white">More Details</button>
+                    </div>
+                </div>
+            </div>
+</header>    
     
 </body>
 </html>
