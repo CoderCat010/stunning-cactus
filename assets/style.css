@@ -8,23 +8,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
    }
 
    
 /* ==========================
    GLOBAL STYLES
    ========================== */
-   /* body{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 100px;
-    font-family: "Montserrat", sans-serif;
-   }      */
    body{
-      max-width: 1300px;
-      margin: 0 auto;
-      padding: 0 70px;
+      font-family: "Montserrat", sans-serif;
+      background-color: hsl(228, 6%, 8%);
    }
 
    a{
@@ -39,4 +31,19 @@
 
    button, i, img{
       cursor: pointer;
+   }
+
+
+/* ==========================
+   HEADER STYLES
+   ========================== */
+/* 
+========Navbar Title PART========
+*/
+   .nev-styles{
+      font-weight: 500;
+   }
+   
+   .nev-styles li:hover{
+      color: hsl(93, 54%, 54%);
    }

@@ -1,11 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cactus</title>
+
+    <!--**!FAVICON**-->
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+     <!--**!REMIX ICON**-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.min.css">
+
+     <!--**!TAILWIND CSS & DAISYUI LINKS**-->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!--**!CSS LINKS**-->
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
+<!--
+======================================
+=           HEADER SECTION           =
+======================================
+-->
+<header class="pt-8 mx-auto max-w-[1200px] px-[20px] h-screen">
+<!--
+============NAVIGATION PART=============
+-->
+        <nav class="flex justify-between items-center text-white">
+            <!--
+            LOGO CONTAINER
+            -->
+            <div class="flex items-center gap-1 font-bold text-[20px]">
+                <img src="./assets/img/favicon.png" alt="">
+                <!--Logo Title-->
+                <h1 class="font-bold tracking-[3px]">Cactus.</h1>
+            </div>
     
+            <!--
+            NAVIGATION CONTAINER
+            -->
+            <!--Primary Navigation-->
+                <ul class="flex lg:flex md:flex gap-20 nev-styles lg:block md:block hidden">
+                    <li class="lg:block hidden">Home</li>
+                    <li>Shop</li>
+                    <li>Care</li>
+                    <li>Contact</li>
+                </ul>
+
+            <!--Secondery Navigation-->
+                <ul class="flex gap-5 nev-styles">
+                    <li><i class="ri-user-line text-[20px]"></i></li>
+                    <li><i class="ri-shopping-cart-line text-[20px]"></i></li>
+                </ul>
+        </nav>
+    </header>    
 </body>
 </html>
