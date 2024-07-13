@@ -51,3 +51,11 @@
 .banner-span{
    color: hsl(93, 54%, 54%);
 }
+
+/* 
+========Banner Title PART========
+*/
+.button-hover:hover{
+   color: hsl(93, 54%, 54%);
+}
+

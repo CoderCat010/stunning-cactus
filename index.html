@@ -23,13 +23,13 @@
     <link rel="stylesheet" href="./assets/style.css">
 
 </head>
-<body>
+<body class="mx-auto max-w-[1200px] lg:px-[40px] md:px-7 px-[30px] mb-[100px]">
 <!--
 ======================================
 =           HEADER SECTION           =
 ======================================
 -->
-<header class="pt-8 mx-auto max-w-[1200px] lg:px-[30px] md:px-7 px-[30px] mb-[100px]">
+<header class="pt-8">
 <!--
     ============NAVIGATION PART=============
 -->
@@ -64,7 +64,7 @@
 <!--
     ============BANNER PART=============
  -->
-            <div class="lg:flex md:flex flex-row lg:gap-16 mt-[100px] items-center">
+            <div class="lg:flex md:flex flex-row lg:gap-16 mt-[100px] items-center justify-center">
                 <!-----
                 Banner Img Container      
                 ----->
@@ -84,11 +84,61 @@
                     <div class="flex gap-6">
                         <button style="background-color: hsl(228, 8%, 98%); font-weight: 500;" class="py-2 px-3 text-black rounded-full"><i style="background-color: hsl(93, 54%, 54%); color: black; padding: 5px; border-radius: 50%; position:relative; right: 3%;" class="ri-arrow-right-line"></i> Go To Shop</button>
 
-                        <button style="font-weight: 500;" class="underline text-white">More Details</button>
+                        <button style="font-weight: 500;" class="underline text-white button-hover">More Details</button>
                     </div>
                 </div>
             </div>
 </header>    
+
+<!--
+======================================
+=           MAIN SECTION             =
+======================================
+-->
+<main>
+<!--:::::::::::::::::::::::::::::::::-->
+<!--          HOME PART             -->
+<!--:::::::::::::::::::::::::::::::::-->
+    <section class="py-[100px]">
+<!----
+    ===========HOME CONTAINER===========
+----->
+        <div class="flex justify-center items-center gap-20">
+            <!--::::::HOME TITLE CONTENT::::::-->
+            <div class="w-[550px]">
+                <h1 class="font-extrabold text-[60px] text-white">NEW PLANTS FOR <br> YOUR HOME</h1>
+
+                <p style="color: hsl(228, 8%, 70%);" class="pt-5">Select new ornamental plants for home decoration and obtain an atmosphere of harmony and freshness.</p>
+            </div>
+
+            <!--::::::HOME IMG CONTAINER::::::-->
+            <div class="grid grid-cols-2 gap-16">
+
+                <!--HOME IMG CARD1-->
+                <div style="background: linear-gradient(180deg, hsla(93, 8%, 8%),hsla(93, 40%, 30%)); border: 2px solid  hsl(93, 58%, 66%);" class="w-[200px] h-[207px] p-5 relative rounded-3xl rotate-[-10deg]">
+                    <img class="absolute left-0 right-0 top-[-4.5rem] bottom-0 px-2" src="./assets/img/new-cactus-1.png">
+                    <p class="text-white font-bold pt-28 text-center text-[18px]">Gymnocalycium Cactus</p>
+                </div>
+
+                <!--HOME IMG CARD2-->
+                <div style="background: linear-gradient(180deg, hsla(93, 8%, 8%),hsla(93, 40%, 30%)); border: 2px solid  hsl(93, 58%, 66%);" class="w-[200px] h-[207px] p-5 relative rounded-3xl rotate-[10deg] -bottom-24">
+                    <img class="absolute left-0 right-0 top-[-4.5rem] bottom-0 px-2" src="./assets/img/new-cactus-2.png">
+                    <p class="text-white font-bold pt-28 text-center text-[18px]">Lily Pad Succulent</p>
+                </div>
+
+                <!--HOME IMG CARD3-->
+                <div style="background: linear-gradient(180deg, hsla(93, 8%, 8%),hsla(93, 40%, 30%)); border: 2px solid  hsl(93, 58%, 66%);" class="w-[200px] h-[207px] p-5 relative rounded-3xl rotate-[-5deg] -bottom-10">
+                    <img class="absolute left-0 right-0 top-[-4.5rem] bottom-0 px-2" src="./assets/img/new-cactus-3.png">
+                    <p class="text-white font-bold pt-28 text-center text-[18px]">Rebutia Cactus Limp</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
     
 </body>
 </html>
